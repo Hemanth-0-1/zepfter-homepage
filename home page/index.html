@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zepfter | Pharma IT & Training Solutions</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  color: #333;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+}
+
+header img {
+  height: 55px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.btn {
+  background: #ff7a00;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(0,0,50,0.7), rgba(0,0,50,0.7)), url('pharma2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 120px 50px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.hero p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+/* SECTION */
+section {
+  padding: 70px 50px;
+  text-align: center;
+}
+
+h2 {
+  color: #1f3c88;
+  margin-bottom: 15px;
+}
+
+/* SERVICES */
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #f9fbff;
+  padding: 25px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: #eef4ff;
+}
+
+/* IMAGE SECTION */
+.image-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.image-section img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.image-text {
+  text-align: left;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background: #1f3c88;
+  color: white;
+}
+
+.stats div {
+  padding: 30px;
+}
+
+/* CTA */
+.cta {
+  background: #ff7a00;
+  color: white;
+  padding: 70px 20px;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+  .image-section {
+    flex-direction: column;
+  }
+
+  .image-section img {
+    width: 100%;
+  }
+}
+.founder {
+  background: #f5f9ff;
+}
+
+.founder-box {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.founder-text {
+  text-align: left;
+}
+
+.founder-text p {
+  margin-bottom: 15px;
+}
+
+.founder-image img {
+  width: 200px;
+}
+
+@media(max-width: 768px) {
+  .founder-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .founder-text {
+    text-align: center;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <img src="logo.png" alt="Zepfter Logo">
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Training</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Pharma IT Solutions & Professional Training</h1>
+  <p>Empowering pharmaceutical and life sciences companies with advanced IT solutions and industry-focused training programs.</p>
+  <a href="#" class="btn">Explore Programs</a>
+</section>
+
+<!-- ABOUT -->
+<section class="image-section">
+  <img src="pharma1.jpg" alt="Pharma">
+  <div class="image-text">
+    <h2>About Zepfter</h2>
+    <p>
+      Zepfter specializes in delivering IT solutions and professional training for the pharmaceutical and healthcare industry. 
+      We bridge the gap between technology and regulatory compliance, helping organizations and professionals succeed.
+    </p>
+  </div>
+</section>
+<!-- FOUNDER MESSAGE -->
+<section class="founder">
+  <h2>Founder’s Message</h2>
+
+  <div class="founder-box">
+    <div class="founder-text">
+      <p>
+        At Zepfter, our vision is to bridge the gap between academic knowledge and industry requirements in the pharmaceutical and healthcare sectors.
+      </p>
+
+      <p>
+        With the rapid evolution of technology and regulatory standards, there is a growing need for skilled professionals who are both technically strong and industry-ready.
+      </p>
+
+      <p>
+        Zepfter was founded with a mission to empower individuals and organizations through high-quality training and innovative IT solutions tailored for the life sciences industry.
+      </p>
+
+      <p>
+        We are committed to delivering practical, real-world knowledge that enables our learners to build successful careers and helps businesses achieve compliance, efficiency, and growth.
+      </p>
+
+      <h4>— Founder, Zepfter</h4>
+    </div>
+
+    <div class="founder-image">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Founder">
+    </div>
+  </div>
+</section>
+<!-- SERVICES -->
+<section>
+  <h2>Our Pharma IT Services</h2>
+  <p>Comprehensive solutions tailored for life sciences and healthcare industries.</p>
+
+  <div class="services">
+    <div class="card">
+      <h3>Computer System Validation (CSV)</h3>
+      <p>Ensure compliance with regulatory standards like FDA and GxP.</p>
+    </div>
+
+    <div class="card">
+      <h3>Clinical Data Management</h3>
+      <p>Efficient handling and analysis of clinical trial data.</p>
+    </div>
+
+    <div class="card">
+      <h3>Regulatory Compliance</h3>
+      <p>Support for audits, documentation, and validation processes.</p>
+    </div>
+
+    <div class="card">
+      <h3>Pharma IT Consulting</h3>
+      <p>Expert guidance on digital transformation in pharma companies.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TRAINING -->
+<section>
+  <h2>Professional Training Programs</h2>
+  <p>Industry-ready training designed for students and professionals.</p>
+
+  <div class="services">
+    <div class="card">
+      <h3>Clinical SAS</h3>
+      <p>Learn data analysis for clinical trials with real-world projects.</p>
+    </div>
+
+    <div class="card">
+      <h3>Pharmacovigilance</h3>
+      <p>Drug safety and adverse event reporting training.</p>
+    </div>
+
+    <div class="card">
+      <h3>Regulatory Affairs</h3>
+      <p>Understand global pharma regulations and compliance.</p>
+    </div>
+
+    <div class="card">
+      <h3>Medical Coding</h3>
+      <p>Master coding systems used in healthcare and insurance.</p>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div>
+    <h2>300+</h2>
+    <p>Students Trained</p>
+  </div>
+
+  <div>
+    <h2>100+</h2>
+    <p>Projects Completed</p>
+  </div>
+
+  <div>
+    <h2>95%</h2>
+    <p>Placement Support</p>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Zepfter | Pharma IT & Training Solutions</p>
+  <p>Email: info@zepfter.com | Phone: +91 97030 12366</p>
+</footer>
+
+</body>
+</html>
